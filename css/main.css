@@ -1,0 +1,55 @@
+.budget-tracker{
+    border-collapse: collapse;
+    min-width:750px;
+}
+.budget-tracker *{
+    font-family:sans-serif;
+}
+.budget-tracker th{
+    text-align: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #6dc706;
+}
+.budget-tracker td{
+    padding: 5px;
+}
+
+.input,
+.delete-entry{
+   height:30px;
+   font-size:13px;
+   padding:0 10px;
+   margin:0;
+   box-sizing:border-box; 
+}
+
+.input{
+    border:1px solid #dddddd;
+    border-radius:5px;
+    outline:none;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.input:focus{
+    border-color: #6dc706;
+}
+
+.delete-entry{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:30px;
+    background:none;
+    color:rgb(153, 231, 26);
+    outline:none;
+    cursor: pointer;
+}
+.delete-entry:hover{
+    color:rgba(9, 6, 44, 0.781);
+}
+.summary,
+.controls{
+    text-align: right;
+}
